@@ -2,4 +2,4 @@ git_token               = "YOUR_GIT_PERSONAL_ACCESS_TOKEN"
 org_name                = "GITHUB_ORGANIZATION_NAME"
 app_name                = "NAME_OF_THE_PROJECT"
 collaborators_usernames = ["USER1_USERNAME", "USER2_USERNAME"]
-apps_list               = ["backend", "webapp", "staticfe"]
+apps_list               = ["backend", "webapp", "staticfe", "infra"]
