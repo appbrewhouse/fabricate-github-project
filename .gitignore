@@ -2,6 +2,9 @@
 
 *.tfvars
 *.tfvars.json
+*.tfstate
 
 .terraformrc
 terraform.rc
+
+.terraform.lock.hcl
