@@ -18,7 +18,7 @@ resource "github_team" "app_team" {
   description = "Team for ${var.app_name}"
 }
 
-resource "github_membership" "info_abh_user" {
+resource "github_membership" "info_user" {
   count    = length(var.collaborators_usernames)
   username = var.collaborators_usernames[count.index]
   role     = "admin"
